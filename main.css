@@ -1,0 +1,136 @@
+.jeni p{
+    font-size: 20px;
+}
+.simple>p{
+    font-size: 20px;
+    background-color: aqua;
+}
+.attribute+p{
+    color: red;
+}
+.combined~p{
+    color: red;
+}
+.hover:hover{
+   color: red;
+}
+.element:focus{
+  color: green;
+}
+.entry::before{
+    border: 2px solid red;
+    width: 200px;
+    /* height: 3px; */
+    content: "";
+    display: block;
+}
+.jeni ul li::marker{
+    color: yellow;
+    
+}
+.jeni::after{
+    color: yellow;
+    border: 2px solid red;
+    width: 200px;
+    /* height: 3px; */
+    content: "";
+    display: block;
+}
+[title~="jenifer"]{
+    background-color: aqua;
+}
+[class|="top"]{
+    background-color: aqua;
+}
+[class^="top-head"]{
+    background-color: aqua;
+}
+[class*="test"]{
+    color: aquamarine;
+}
+.jeni{
+    font-family: 'Courier New', Courier, monospace;
+}
+.mani{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.jenifer{
+    font-style: normal;
+}
+.mani{
+    font-style: italic;
+}
+.mani{
+    font-style: oblique;
+}
+.jenifer{
+    font-variant: normal;
+}
+.entry{
+    font-variant: small;
+}
+.tripple{
+    font-weight: 500;
+}
+.jeni{
+    color:red ;
+}
+.jeni-i{
+    text-align: center;
+}
+.jeni-mani{
+text-align: end;
+}
+.jenifer{
+    text-align: justify;
+
+}
+.jenifer-end{
+    text-align: left;
+}
+.jenifer-first{
+    text-align: right;
+}
+.jenifer-start{
+    text-align: start;
+}
+
+.style{
+    text-decoration: overline green double 5px;
+    
+}
+.varient{
+    text-decoration:2px underline dotted red ;
+
+}
+.weight{
+    text-decoration:  underline red double;
+}
+.size{
+    text-decoration: line-through;
+}
+.family{
+    text-decoration: none;
+}
+.mani-end{
+     text-transform:uppercase ;
+}
+.first-mani{
+    text-transform: lowercase;
+}
+.end-mani{
+    text-transform: capitalize;
+}
+.arun-end{
+    letter-spacing: 5px;
+    text-shadow:5px 0px  red;
+}
+.end-arun{
+    word-spacing: 20px;
+}
+.end-end-end{
+    line-height: 20px;
+}
+
+
+
