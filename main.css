@@ -1,6 +1,6 @@
 .jeni p{
     font-size: 20px;
-}
+ }
 .simple>p{
     font-size: 20px;
     background-color: aqua;
@@ -131,6 +131,28 @@ text-align: end;
 .end-end-end{
     line-height: 20px;
 }
+/*box-model*/
+.sanjay-jeni{
+    width: 500px;
+    border: 30 px solid yellow;
+    padding: 50px;
+    margin: auto;
+}
+/*color*/
+.address{
+    color: aqua;
+}
+.strong{
+    color: #190;
+}
+.article{
+    color: rgb(123, 456, 789);
+}
+.small{
+    color: rgba(123, 456, 789, 100%) ;
+}
+
+
 
 
 
